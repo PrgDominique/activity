@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5977/5977578.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Group 4 Burger's King</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -37,12 +38,12 @@
         cursor: pointer;
         text-decoration: underline;
       }
-    @media screen and (max-width: 1279px) {
+    @media screen and (max-width: 1230px) {
       #responsive{
         display: none;
       }
     }
-    @media screen and (min-width: 1279px) {
+    @media screen and (min-width: 1230px) {
       .mobile{
         display: none;
       }
@@ -55,14 +56,13 @@
    </style>
 
   </head>
-  <body class="" style="background: rgb(245, 235, 220); height: 1500px;">
+  <body style="background: rgb(245, 235, 220); height: 1500px;">
     <!-- Dominique Simbillo Nav bar
     This is default max width 1280px only and lower than that the display will be changes
     -->
     <div id="responsive">
-    <div class="container-fluid  pt-3 ps-4 fixed-top w-100" style="background: rgb(245, 235, 220);">
-      <div class="row">
-        <div class="col-5">
+      <div class="container-fluid d-flex justify-content-between">
+        <div class="m-3">
           <i class="fa-solid fa-bars fs-5 d-inline pe-2"></i>
           <h5 class="d-inline pe-2" style="color: rgb(80, 35, 20);">Menu</h5>
           <h5 class="d-inline pe-2 style="color: rgb(80, 35, 20)">Offers</h5>
@@ -71,19 +71,17 @@
           <h5 class="d-inline pe-2 style="color: rgb(80, 35, 20)">Rewards</h5>
           <h5 class="d-inline pe-2 style="color: rgb(80, 35, 20)">More</h5>
         </div>
-        <div class="col-1">
-           <a href="#"><i class="fa-solid fa-burger fs-1 ps-3 text-decoration-none pb-2" style="color: rgb(80, 35, 20);"></i></a> 
+        <div  class="m-3">
+          <a href="#"><i class="fa-solid fa-burger fs-1 ps-3 text-decoration-none pb-2" style="color: rgb(80, 35, 20);"></i></a> 
         </div>
-      
-        <div class="col-6">
-            <i class="fa-sharp fa-solid fa-location-dot d-inline pe-2"></i>
+        <div  class="m-3">
+          <i class="fa-sharp fa-solid fa-location-dot d-inline pe-2"></i>
           <h5 class="d-inline pe-2 ">For item availability</h5>
             <a href="#"><p class="fs2 d-inline pe-2" style="color: rgb(80, 35, 20);">Choose your location</p></a>
             <button class="rounded-pill me-2" style="background: rgb(214, 35, 0); color: white;">Sign up</button>
             <button class="rounded-pill" style="background: rgb(80, 35, 20); color: white;"><i class="fa-solid fa-bag-shopping"></i> $0.00</button>
-          </div>
-      </div>
-    </div>
+        </div>
+         </div>
   </div>
      <!-- Dominique Simbillo Nav bar
       This is 1280px width resolution
@@ -92,8 +90,8 @@
       This is starting Mobile responsiveness
     -->
     <div class="mobile">
-      <div class="d-flex justify-content-between fixed-top">
-        <nav class="navbar navbar-expand-xxl bg-light">
+      
+        <nav class="navbar navbar-expand-xxl d-flex justify-content-between fixed-top" style="background: rgb(245, 235, 220);">
           <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -124,15 +122,16 @@
               </ul>
              
             </div>
+            <div>
+              <a href="#"><i class="fa-solid fa-burger fs-1 ps-3 text-decoration-none pb-2" style="color: rgb(80, 35, 20);"></i></a> 
+           </div>
+           <div>
+            <button class="rounded-pill me-2" style="background: rgb(214, 35, 0); color: white;">Sign up</button>
           </div>
+          </div>
+          
+        
         </nav>
-        <div>
-          <a href="#"><i class="fa-solid fa-burger fs-1 ps-3 text-decoration-none pb-2" style="color: rgb(80, 35, 20);"></i></a> 
-       </div>
-        <div>
-          <button class="rounded-pill me-2" style="background: rgb(214, 35, 0); color: white;">Sign up</button>
-        </div>
-      </div>
     </div>
 
       <!--This is the end of Mobile responsiveness-->
